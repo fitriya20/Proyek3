@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+
+/* Navbar */
+body {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.navbar-nav .nav-item {
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  text-decoration: none;
+
+}
+
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: blue;
+}
+
+
+.search {
+  width: 100%;
+  margin-bottom: auto;
+  margin-top: 20px;
+  height: 50px;
+  background-color: #d7e0eb;
+  padding: 10px;
+  border-radius: 60px;
+}
+
+.search-input {
+  color: #d7e0eb;
+  border: none;
+  outline: none;
+  transition: width 0.4s linear
+}
+
+.search .search-input {
+  padding: 0 5px;
+  width: 85%;
+  font-size: 19px;
+  font-weight: 300;
+  color: black;
+  background-color: #d7e0eb;
+  transition: width 0.4s linear;
+}
+
+
+.search-icon {
+  height: 34px;
+  width: 34px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 10px;
+  bottom: 3px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.search-icon:hover {
+  color: #007fff !important;
+}
+
+
+
+
+.banner {
+  background: url(../img/map.png)no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.banner .container {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.banner-fill {
+  color: white;
+  margin-top: 6rem;
+}
+
+.banner .container h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.banner .container .font-shadow {
+  text-shadow: 5px 5px 0px rgba(0, 0, 0, 10);
+}
+
+
+.banner .container .btn {
+  color: blue;
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 65px;
+  width: 35%;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 80px;
+  transition: all 0.2s;
+}
+
+.banner .container .btn1 {
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: blue;
+  font-weight: 400;
+  border-radius: 60px;
+}
+
+.container .btn1:hover {
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+}
+
+.banner .container .btn2 {
+
+  background-color: blue;
+  color: white;
+
+}
+
+.container .btn2:hover {
+  font-size: 20px;
+}
+
+
+.semuapaket a {
+  color: black; 
+  text-decoration: none; 
+  transition: color 0.3s; 
+}
+
+.semuapaket a:hover {
+  color: blue; 
+}
+
+
+footer {
+  color: white;
+}
+
+.navbar-nav .dropdown .nav-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar-nav .dropdown .nav-link:hover {
+  color: blue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: blue;
+  background-color: #f1f1f1;
+}
+
+.nav-extra {
+  width: 350px;
+  margin-top: -20px;
+  margin-left: -10px;
+}
+
+.nav-extra .login-icon {
+  color: #333;
+}
+
+.nav-extra .login-button {
+  color: blue;
+  background-color: #f8f9fa;
+  width: 100px;
+  font-weight: 700;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.nav-extra .login-button:hover {
+  color: #fff;
+  background-color: blue;
+}
+
+.paket {
+  margin-top: 7rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.card {
+  -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.form-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+}
+
+.about {
+  text-align: justify;
+}
+
+.produk .row {
+  font-size: 20px;
+}
+
+#picsForm {
+  position: relative;
+}
+
+.profileImg {
+  position: relative;
+  display: inline-block;
+}
+
+.form-label.btn-upload {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  background-color: rgb(62, 62, 254); /* Ganti warna latar belakang sesuai kebutuhan Anda */
+  padding: 2px; /* Sesuaikan padding sesuai kebutuhan Anda */
+  border-radius: 10px; /* Sesuaikan radius sudut sesuai kebutuhan Anda */
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 10px; /* Sesuaikan radius sudut sesuai kebutuhan Anda */
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+/* :root {
+  --primary: #fd2382;
+  --secondary: #0691d2;
+
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Hammersmith One', sans-serif;
+  overflow-x: hidden;
+}
+
+
+.feather {
+  width: 25px;
+  height: 25px;
+
+}
+
+.sidebar {
+  background-color: blue;
+  padding: 0;
+}
+
+.brand-logo {
+  height: 20%;
+  padding: 10px 0px 40px 0px;
+  border: 1px solid #F8F8FE;
+}
+
+
+.navbar-nav .nav-item a{
+  margin-left: 50px;
+  display: flex;
+  justify-content: left;
+  color: white;
+  font-size: 1rem;
+
+}
+
+.nav-link {
+  width: 100%;
+  padding: 18px 0px 15px 20px;
+
+}
+
+.navbar-nav .nav-item span {
+  padding: 5px 5px;
+  
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.2s ease;
+}
+
+
+.content {
+  padding: 0;
+}
+
+/* .content .line {
+  height: 50px;
+  background-color: red;
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+} */
+
+.title span {
+  font-size: 3rem;
+  color: #3040D0;
+}
+
+
+.card {
+  position: relative;
+  width: 260px;
+  margin: 0 20px;
+  background-color: blue;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(0.98);
+}
+
+.card span {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+
+}
+
+.card span .feather {
+  color: #fff;
+  height: 45px;
+  width: 45px;
+}
+
+.card .card-link {
+  width: 100%;
+  color: #fff;
+  padding: 70px;
+  transition: 0.2s ease;
+}
+
+.card .card-link:hover {
+  transform: scale(0.95);
+}
+
+
+.card .card-text {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white
+}
+
+
+.action .btn-trash {
+  background-color: var(--primary);
+  color: red;
+  border: none;
+}
+
+.action .btn-edit{
+  background-color: var(--primary);
+  color: yellow;
+  border: none;
+}
+
+
+.action .btn:hover {
+  background-color: #F8F8FE;
+  transition: background-color 0.5s ease;
+}
+
+.btn-variation {
+  color: #F8F8FE;
+  border: none;
+}
+
+.btn-variation:hover {
+  color: blue;
+  transition: background-color 0.5s ease;
+}
+
+.modal-body .form-group {
+  padding: 10px 0px;
+}
